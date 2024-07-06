@@ -197,7 +197,7 @@ header{
 /* Contact Section */
 .contact{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     max-width: 1140px;
     margin: auto;
     margin-bottom: 30px;
@@ -217,6 +217,7 @@ header{
 }
 .contact form{
     margin-top: 10px;
+    display: inline;
 }
 .input-field{
     margin: 5px 0;
@@ -225,6 +226,11 @@ header{
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px #FD6E0A;
+    outline: none;
+    border: 2px solid white;
+}
+.input-field:focus{
+    border-color: #FD6E0A;
 }
 
 .copyright{
