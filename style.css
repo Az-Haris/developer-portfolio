@@ -156,3 +156,78 @@ header{
     line-height: 1.5;
     margin-bottom: 0;
 }
+
+/* Resume Section */
+.resume{
+    margin: 150px auto;
+    max-width: 1140px;
+}
+.resume .btn-primary{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.resume-column{
+    display: flex;
+    gap: 30px;
+}
+.resume-heading{
+    font-size: 30px;
+    color: #474747;
+}
+.resume-content{
+    margin-bottom: 30px;
+}
+.resume-content h5{
+    font-size: 25px;
+    color: #474747;
+    margin: 0;
+}
+.resume-content h6{
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0;
+}
+.resume-content p{
+    font-size: 16px;
+    color: #757575;
+}
+
+
+/* Contact Section */
+.contact{
+    display: flex;
+    gap: 30px;
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.contact-title{
+    color: #181818;
+    font-size: 35px;
+    margin: 0;
+}
+.contact-description{
+    color: #757575;
+    font-size: 16px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
+.contact form{
+    margin-top: 10px;
+}
+.input-field{
+    margin: 5px 0;
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FD6E0A;
+}
+
+.copyright{
+    text-align: center;
+    color: #888888;
+}
