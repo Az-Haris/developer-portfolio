@@ -225,6 +225,7 @@ header{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    background-color: #fff;
     box-shadow: 0 0 5px #FD6E0A;
     outline: none;
     border: 2px solid white;
@@ -236,4 +237,8 @@ header{
 .copyright{
     text-align: center;
     color: #888888;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 40px 0 0 0;
 }
