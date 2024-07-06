@@ -165,6 +165,7 @@ header{
 .resume .btn-primary{
     display: flex;
     margin: auto;
+    gap: 5px;
     margin-top: 20px;
 }
 .resume-column{
